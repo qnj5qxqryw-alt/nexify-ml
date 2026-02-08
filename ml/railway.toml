@@ -1,0 +1,5 @@
+[build]
+buider = "NIXPACKS"
+
+[start]
+cmd = "python app.py"
