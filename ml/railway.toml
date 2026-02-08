@@ -1,5 +1,5 @@
 [build]
-buider = "NIXPACKS"
+builder = "NIXPACKS"
 
 [start]
-cmd = "python app.py"
+cmd = "gunicorn app:app"
